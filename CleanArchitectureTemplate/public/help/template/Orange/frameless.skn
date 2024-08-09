@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+  <layout>frameless_homepage</layout>
+  <name>frameless_homepage</name>
+  <layoutType>frameless</layoutType>
+  <version>2022.3.0</version>
+  <variables>
+    <css>
+      <theme-href-text-color></theme-href-text-color>
+      <theme-homepage-layout-text-color>#666666</theme-homepage-layout-text-color>
+      <themeColor>#C43C00</themeColor>
+      <search-results-bg-color>white</search-results-bg-color>
+      <idx-glo-search-txt-color>black</idx-glo-search-txt-color>
+      <search-result-item-path-color>#707070</search-result-item-path-color>
+      <theme-layout-font>Arial</theme-layout-font>
+      <theme-title-color>#C43C00</theme-title-color>
+      <theme-color>#000000</theme-color>
+      <left-panel-bg-color>white</left-panel-bg-color>
+      <theme-topic-text-color>black</theme-topic-text-color>
+      <theme-layout-text-color>#343434</theme-layout-text-color>
+      <theme-bg-color>rgb(255,255,255)</theme-bg-color>
+      <header-background-color>white</header-background-color>
+      <header-border-bottom>none</header-border-bottom>
+      <header-font-color>#f2f2f2</header-font-color>
+      <header-textfield-background-color>white</header-textfield-background-color>
+      <header-textfield-border>transparent 0.125rem</header-textfield-border>
+      <header-textfield-text-color>#241a1a</header-textfield-text-color>
+      <href-color>#343434</href-color>
+      <leftpanel-text-color>#343434</leftpanel-text-color>
+      <custom-buttons-color>#4D4D4D</custom-buttons-color>
+      <leftpanel-tablist-color>#4D4D4D</leftpanel-tablist-color>
+      <scrollbar-thumb-color>#707070</scrollbar-thumb-color>
+      <search-result-item-summary-color>#707070</search-result-item-summary-color>
+      <saved-items-color>#4d4d4d</saved-items-color>
+      <filter-search-box-text-color>#959494</filter-search-box-text-color>
+      <search-result-item-color>#4b4b4b</search-result-item-color>
+      <rightpanel-buttons-background-color>#ffffff</rightpanel-buttons-background-color>
+      <rightpanel-saved-fav-item>#4d4d4d</rightpanel-saved-fav-item>
+      <breadcrumb-list-last-item>#4B4B4B</breadcrumb-list-last-item>
+      <breadcrumb-list-not-last-item>#707070</breadcrumb-list-not-last-item>
+      <mini-toc-caption-color>#393939</mini-toc-caption-color>
+      <brs-text-color>#676767</brs-text-color>
+      <idx-glo-search-bg-color>white</idx-glo-search-bg-color>
+      <left-panel-hove-bg-color>aliceblue</left-panel-hove-bg-color>
+      <page_font_family>sans-serif</page_font_family>
+      <search_results_highlight_bgcolor>#FCFF00</search_results_highlight_bgcolor>
+      <search_results_highlight_color>#000000</search_results_highlight_color>
+      <custom_button_image_0>expand_all.svg</custom_button_image_0>
+      <custom_button_image_1>unsaved.svg</custom_button_image_1>
+      <custom_button_image_2>filter.svg</custom_button_image_2>
+      <custom_button_image_3>filter.svg</custom_button_image_3>
+      <custom_button_image_4>download_pdf.svg</custom_button_image_4>
+      <custom_button_image_5>search.svg</custom_button_image_5>
+    </css>
+    <html>
+      <search_highlight_bg_color>#ffff00</search_highlight_bg_color>
+      <search_highlight_text_color>#000000</search_highlight_text_color>
+      <tocImageDataSet type="array">
+        <tocImageDataSetitem>Purchase Order.png</tocImageDataSetitem>
+        <tocImageDataSetitem>Purchase Order.png</tocImageDataSetitem>
+        <tocImageDataSetitem>Dashboard.png</tocImageDataSetitem>
+        <tocImageDataSetitem>maintenance2.png</tocImageDataSetitem>
+        <tocImageDataSetitem>Purchase Order.png</tocImageDataSetitem>
+        <tocImageDataSetitem>Shipment.png</tocImageDataSetitem>
+        <tocImageDataSetitem>Dashboard.png</tocImageDataSetitem>
+      </tocImageDataSet>
+      <showBreadcrumbs type="boolean">true</showBreadcrumbs>
+      <hyperlinkHomeToDefaultTopic type="boolean">true</hyperlinkHomeToDefaultTopic>
+      <treeChevronPosition>left</treeChevronPosition>
+      <showRightPanel type="boolean">true</showRightPanel>
+      <minitoc_levelFrom>2</minitoc_levelFrom>
+      <minitoc_levelTo>4</minitoc_levelTo>
+      <minitoc_caption></minitoc_caption>
+      <gdprCompliant type="boolean">false</gdprCompliant>
+      <showOnlyDesktopView type="boolean">true</showOnlyDesktopView>
+      <drillDownTOC type="boolean">true</drillDownTOC>
+      <limitTilesCount type="boolean">false</limitTilesCount>
+      <tileSelection type="boolean">false</tileSelection>
+      <showHeaderLinksOnHomepage type="boolean">true</showHeaderLinksOnHomepage>
+      <stickyTopicHeader type="boolean">true</stickyTopicHeader>
+      <stickyTopicFooter type="boolean">false</stickyTopicFooter>
+      <stickyHomepageFooter type="boolean">false</stickyHomepageFooter>
+      <showName type="boolean">false</showName>
+      <toTop type="boolean">true</toTop>
+      <fullScreen type="boolean">true</fullScreen>
+      <avoidPageRefresh type="boolean">true</avoidPageRefresh>
+      <page_font_family>sans-serif</page_font_family>
+      <show_toc type="boolean">true</show_toc>
+      <show_index type="boolean">true</show_index>
+      <show_glossary type="boolean">true</show_glossary>
+      <show_filter type="boolean">true</show_filter>
+      <default_pane>toc</default_pane>
+      <assets type="array"></assets>
+      <custom_buttons type="array">
+        <custom_buttonsitem>
+          <id>0</id>
+          <image>expand_all.svg</image>
+          <name>Expand/Collapse All</name>
+          <tabId>Expand</tabId>
+          <title>Expand All</title>
+          <onclick>EVT_EXPAND_COLLAPSE_ALL</onclick>
+          <toggledTitle>Collapse All</toggledTitle>
+          <key>11950</key>
+        </custom_buttonsitem>
+        <custom_buttonsitem>
+          <id>1</id>
+          <image>unsaved.svg</image>
+          <name>Saved</name>
+          <tabId>Saved</tabId>
+          <title>Favorites</title>
+          <onclick>EVT_SHOW_FAVORITES</onclick>
+          <show>@showFav</show>
+          <key>11951</key>
+        </custom_buttonsitem>
+        <custom_buttonsitem>
+          <id>2</id>
+          <image>filter.svg</image>
+          <name>Filter</name>
+          <tabId>Filter</tabId>
+          <title>Filter</title>
+          <onclick>EVT_SHOW_FILTERS</onclick>
+          <show>@showFilter</show>
+          <key>11952</key>
+        </custom_buttonsitem>
+        <custom_buttonsitem>
+          <id>3</id>
+          <image>filter.svg</image>
+          <name>Select Bookmark</name>
+          <tabId>BmrkSelect</tabId>
+          <title>Select Bookmark</title>
+          <onclick>EVT_SHOW_BOOKMARKS</onclick>
+          <show>@showBmrkSelect</show>
+          <key>11953</key>
+        </custom_buttonsitem>
+        <custom_buttonsitem>
+          <id>4</id>
+          <image>download_pdf.svg</image>
+          <name>Download PDF</name>
+          <tabId>Pdf</tabId>
+          <title>Download PDF</title>
+          <onclick>EVT_DOWNLOAD_PDF</onclick>
+          <show>@showPdf</show>
+          <key>11954</key>
+        </custom_buttonsitem>
+        <custom_buttonsitem>
+          <id>5</id>
+          <image>search.svg</image>
+          <name>Search</name>
+          <tabId>Search</tabId>
+          <title>Search</title>
+          <onclick>EVT_PROJ_SEARCH</onclick>
+          <show>@showSearchIcon</show>
+          <key>11955</key>
+        </custom_buttonsitem>
+        <custom_buttonsitem>
+          <id>6</id>
+          <name>Share</name>
+          <tabId>Share</tabId>
+          <onclick>EVT_SHOW_SHARE</onclick>
+          <title>Share</title>
+          <key>11956</key>
+        </custom_buttonsitem>
+      </custom_buttons>
+      <custom_links type="array"></custom_links>
+      <dropdown_options type="array">
+        <dropdown_optionsitem>
+          <id>0000</id>
+          <title>Twitter</title>
+          <url>https://twitter.com/intent/tweet?url=%url%</url>
+          <group>Share</group>
+          <tooltip>Share on Twitter</tooltip>
+          <name>Twitter</name>
+          <key>5162</key>
+        </dropdown_optionsitem>
+        <dropdown_optionsitem>
+          <name>LinkedIn</name>
+          <id>0002</id>
+          <title>LinkedIn</title>
+          <url>https://www.linkedin.com/shareArticle?mini=true&amp;url=%url%</url>
+          <group>Share</group>
+          <tooltip>Share on LinkedIn</tooltip>
+          <key>5163</key>
+        </dropdown_optionsitem>
+        <dropdown_optionsitem>
+          <name>Facebook</name>
+          <id>0001</id>
+          <title>Facebook</title>
+          <url>https://www.facebook.com/sharer.php?u=%url%</url>
+          <group>Share</group>
+          <tooltip>Share on Facebook</tooltip>
+          <key>5164</key>
+        </dropdown_optionsitem>
+        <dropdown_optionsitem>
+          <name>Email</name>
+          <id>0003</id>
+          <group>Share</group>
+          <title>Email</title>
+          <url>mailto:?body=%url%</url>
+          <tooltip>Share via Email</tooltip>
+          <key>5165</key>
+        </dropdown_optionsitem>
+        <dropdown_optionsitem>
+          <name>teams</name>
+          <key>5166</key>
+        </dropdown_optionsitem>
+      </dropdown_options>
+      <max_width_mobile>1000</max_width_mobile>
+      <max_width_tablet>1000</max_width_tablet>
+      <search_results_highlight_bgcolor>#FCFF00</search_results_highlight_bgcolor>
+      <search_results_highlight_color>#000000</search_results_highlight_color>
+      <search_results_in_content_area type="boolean">false</search_results_in_content_area>
+      <show_header_on_mobile type="boolean">false</show_header_on_mobile>
+      <sidebar_open_by_default type="boolean">true</sidebar_open_by_default>
+      <use_and_search type="boolean">true</use_and_search>
+      <use_facebook type="boolean">false</use_facebook>
+      <use_twitter type="boolean">false</use_twitter>
+    </html>
+  </variables>
+</skin>

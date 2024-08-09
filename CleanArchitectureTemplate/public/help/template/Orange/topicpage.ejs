@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes" />
+  <meta name="version" content="2022.3.0" />
+  <link rel="StyleSheet" href="<%= relPath %>template/styles/topic.min.css" type="text/css" />
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="<%= relPath %>template/<%= skinName %>/layout.css" />
+  <link rel="StyleSheet" data-skin="true" href="<%= relPath %>template/<%= skinName %>/userstyles.css" type="text/css" />
+  <% if(favicon && favicon.path && favicon.mediaType) { %>
+    <link rel="shortcut icon" type="<%= favicon.mediaType %>" href="<%= relPath %><%= favicon.path %>" />
+    <% } %>
+  <script data-relpath="<%= rootRelPath %>" src="<%= relPath %>template/scripts/csh-redirect.js" type="text/javascript"></script>
+</head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container"  role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class='RH-LAYOUT-SEARCHRESULTS' id="rh-searchresults"></div>
+    <div class='RH-LAYOUT-LEFTPANEL-container' id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class='RH-LAYOUT-TOOLBAR-toolbar-box' id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic"></div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">
+    gRootRelPath = "<%= rootRelPath %>"
+    gCommonRootRelPath = "<%= rootRelPath %>"
+    gTopicId = "<%= topicID %>"
+  </script>
+
+
+  <script src="<%= relPath %>template/scripts/topicpage.js"></script>
+  <script src="<%= relPath %>whxdata/layoutconfig.js"></script>
+  <script src="<%= relPath %>whxdata/brsdata.js"></script>
+
+  <%
+      			var allAssetFiles = skinAssets || [];
+      		%>
+    <% for(var i=0; i<allAssetFiles.length; i++) { %>
+      <% if (allAssetFiles[i].substr(allAssetFiles[i].length - 3).toLowerCase()  === ".js") { %>
+        <script src="<%= relPath %>template/<%= skinName %>/<%= allAssetFiles[i] %>" type="text/javascript"></script>
+        <% } %>
+          <% } %>
+
+            <% for(var i=0; i<allAssetFiles.length; i++) { %>
+              <% if (allAssetFiles[i].substr(allAssetFiles[i].length - 4).toLowerCase()  === ".css") { %>
+                <link rel="StyleSheet" href="<%= relPath %>template/<%= skinName %>/<%= allAssetFiles[i] %>" type="text/css" />
+                <% } %>
+                  <% } %>
+</body>
+
+</html>

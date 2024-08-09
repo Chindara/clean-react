@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Admin"]],"1":[[" ","Admin"]],"2":[[" ","login as an Admin, they can see a dashboard and Admin center."," ","As an Admin, they can register the Company and add users to Company."]],"id":"12"})

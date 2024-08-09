@@ -1,0 +1,53 @@
+.RH-LAYOUT-LEFTPANEL-tab-panel {
+    padding-left: 1rem;
+}
+  
+.RH-LAYOUT-LEFTPANEL-title::before {
+  content: "";
+  margin-right: 1rem;
+}
+
+.RH-LAYOUT-LEFTPANEL-section > .RH-LAYOUT-LEFTPANEL-title::before {
+  content: "";
+  margin-right: 0;
+}
+
+.RH-LAYOUT-LEFTPANEL-section ul {
+  margin-left: 1rem;
+  transform-origin: bottom;
+}
+
+
+.RH-LAYOUT-LEFTPANEL-section .RH-LAYOUT-LEFTPANEL-title {
+  margin-left: 0;
+  transform-origin: bottom;
+}
+
+.RH-LAYOUT-INDEX-keyword-list {
+  padding: 1rem;
+}
+
+.RH-LAYOUT-INDEX-keyword::before {
+  content: "";
+  margin-right: 1rem;
+}
+
+.rh-layout-INDEX-keyword-group > .RH-LAYOUT-INDEX-keyword::before {
+  content: "";
+  margin-right: 0;
+}
+
+.rh-layout-INDEX-keyword-group ul {
+  margin-left: 1rem;
+  transform-origin: bottom;
+}
+
+.rh-layout-INDEX-keyword-group .RH-LAYOUT-INDEX-keyword {
+  margin-left: 0;
+  transform-origin: bottom;
+}
+
+.RH-LAYOUT-HOMEPAGE-SEARCHBOX-icon {
+  width: 2.5rem;
+  height: 1.75rem;
+}

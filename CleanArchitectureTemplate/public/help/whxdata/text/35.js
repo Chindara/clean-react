@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Login as a Officer"]],"1":[[" ","Login as a Officer"]],"2":[[" ","When a user logs in as a officer, they can see the companies to which they were assigned."," ","The Officer can access the company profile using the following buttons."," ","Dashboard"," ","Purchas Orders"," ","Shipments"," ","Report"]],"id":"35"})

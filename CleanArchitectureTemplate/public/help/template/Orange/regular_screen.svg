@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 59.35 59.35">
+   
+<defs>
+      
+<style>.cls-1{}.cls-2,.cls-3{stroke-linecap:round;stroke-width:2px;}.cls-2{stroke-miterlimit:10;}.cls-3{stroke-linejoin:round;}</style>
+   </defs>
+   
+<title>all_icons</title>
+   
+<g id="Group_276" data-name="Group 276">
+      
+<circle id="Ellipse_76" data-name="Ellipse 76" class="cls-1" cx="29.67" cy="29.67" r="21.82" fill="#ffffff"></circle>
+      
+<g id="Group_56" data-name="Group 56">
+         
+<g id="Group_45" data-name="Group 45">
+            
+<line id="Line_14" data-name="Line 14" class="cls-2" x1="26.75" y1="32.02" x2="19.03" y2="39.54" fill="none" stroke="#000000"></line>
+            
+<path id="Path_134" data-name="Path 134" class="cls-3" d="M21,32h5.76V38.2" fill="none" stroke="#000000"></path>
+         </g>
+         
+<g id="Group_47" data-name="Group 47">
+            
+<g id="Group_46" data-name="Group 46">
+               
+<line id="Line_15" data-name="Line 15" class="cls-2" x1="31.95" y1="26.62" x2="39.46" y2="19.11" fill="none" stroke="#000000"></line>
+            </g>
+            
+<path id="Path_136" data-name="Path 136" class="cls-3" d="M37.71,26.62H32V20.45" fill="none" stroke="#000000"></path>
+         </g>
+      </g>
+   </g>
+</svg>
