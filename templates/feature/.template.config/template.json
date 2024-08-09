@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chinthaka Bandara",
+  "classifications": ["ASP.NET", "React"],
+  "identity": "Clean.Architecture.React.Template.Feature.CSharp",
+  "name": "Clean Architecture React with React.js Feature",
+  "shortName": "ca-feature",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "sourceName": "CleanArchitectureTemplateFeature",
+  "description": "A project template for creating an ASP.NET Core Web API using Clean Architecture and React.js",
+  "symbols": {
+    "projectName": {
+      "type": "parameter",
+      "datatype": "string",
+      "isRequired": true,
+      "replaces": "ProjectName",
+      "fileRename": "ProjectName"
+    },
+    "featureName": {
+      "type": "parameter",
+      "datatype": "string",
+      "isRequired": true,
+      "replaces": "FeatureName",
+      "fileRename": "FeatureName"
+    },
+    "featureNameLower": {
+      "type": "generated",
+      "generator": "casing",
+      "parameters": {
+        "source": "featureName",
+        "toLower": true
+      },
+      "replaces": "FeatureNameLower"
+    }
+  }
+}
