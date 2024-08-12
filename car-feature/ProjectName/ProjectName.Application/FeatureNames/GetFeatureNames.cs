@@ -8,9 +8,9 @@ using MediatR;
 
 namespace ProjectName.Application.FeatureNames;
 
-public record GetFeatureNamesQuery(long CompanyId, int Page, int Size) : IRequest<PagedResult<FeatureNameResponses>>;
+public record GetFeatureNamesQuery(long CompanyId, int Page, int Size) : IRequest<PagedResult<FeatureNamesResponse>>;
 
-internal class GetFeatureNamesQueryHandler : IRequestHandler<GetFeatureNamesQuery, PagedResult<FeatureNameResponses>>
+internal class GetFeatureNamesQueryHandler : IRequestHandler<GetFeatureNamesQuery, PagedResult<FeatureNamesResponse>>
 {
     private readonly IApplicationDbContext _context;
 
@@ -19,7 +19,7 @@ internal class GetFeatureNamesQueryHandler : IRequestHandler<GetFeatureNamesQuer
         _context = context;
     }
 
-    public async Task<PagedResult<FeatureNameResponses>> Handle(GetFeatureNamesQuery request, CancellationToken cancellationToken)
+    public async Task<PagedResult<FeatureNamesResponse>> Handle(GetFeatureNamesQuery request, CancellationToken cancellationToken)
     {
         //var results = await PagedResult<FeatureNameResponses>.CreateAsync(query, request.Page, request.Size);
         //return results;
