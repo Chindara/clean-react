@@ -1,1 +1,0 @@
-rh._.exports({"0":[[" "," Delivery Outstanding"]],"1":[[" ","Delivery Outstanding"]],"2":[[" ","Users can view Delivery Outstanding report under this section and download reports as an Excel sheet using the \"download\" button."]],"id":"7"})

@@ -1,1 +1,0 @@
-rh._.exports({"0":[[" ","Demurrage"]],"1":[[" ","Demurrage"]],"2":[[" ","Users can view Demurrage report under this section and download reports as an Excel sheet using the \"download\" button."]],"id":"5"})

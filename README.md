@@ -20,7 +20,12 @@ dotnet new install .
 Once installed, create a new solution using the template. 
 
 ```
-dotnet new clean-react -o "<Name of the project>"
+dotnet new car-sln -o "<Name of the project>"
+```
+
+To create a new feature
+```
+dotnet new car-feature -p <Name of the project> -f <Name of the feature>
 ```
 
 ## Technologies
@@ -29,7 +34,6 @@ dotnet new clean-react -o "<Name of the project>"
 * [Entity Framework Core 8](https://docs.microsoft.com/en-us/ef/core/)
 * [React 18](https://react.dev/)
 * [MediatR](https://github.com/jbogard/MediatR)
-* [AutoMapper](https://automapper.org/)
 * [FluentValidation](https://fluentvalidation.net/)
 
 ### Template Commands

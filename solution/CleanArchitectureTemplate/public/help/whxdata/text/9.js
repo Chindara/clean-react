@@ -1,1 +1,0 @@
-rh._.exports({"0":[[" "," Outstanding Shipping Guarantee"]],"1":[[" ","Outstanding Shipping Guarantee"]],"2":[[" ","Users can view Outstanding Shipping Guarantee report under this section and download reports as an Excel sheet using the \"download\" button."]],"id":"9"})

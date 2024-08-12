@@ -1,1 +1,0 @@
-rh._.exports({"0":[[" ","Logistics Invoice"]],"1":[[" ","Logistics Invoice"]],"2":[[" ","Users can view Logistics Invoice report under this section and download reports as an Excel sheet using the \"download\" button."]],"id":"4"})

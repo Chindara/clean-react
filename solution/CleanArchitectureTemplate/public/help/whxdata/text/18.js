@@ -1,1 +1,0 @@
-rh._.exports({"0":[[" ","Login"]],"1":[[" ","Login"]],"2":[[" ","Users can access the system through three different roles:"," ","Admin"," ","Officer"," ","User"," ","All User can login to the system using their e-mail and password."]],"id":"18"})

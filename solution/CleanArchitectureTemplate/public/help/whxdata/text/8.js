@@ -1,1 +1,0 @@
-rh._.exports({"0":[[" "," Open Account Payment"]],"1":[[" ","Open Account Payment"]],"2":[[" ","Users can view Open Account Payment report under this section and download reports as an Excel sheet using the \"download\" button."]],"id":"8"})

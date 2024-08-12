@@ -1,1 +1,0 @@
-rh._.exports({"0":[[" ","Change Status"]],"1":[[" ","Change Status"]],"2":[[" ","Users  can change the Shipment Status using “Change Status” button"," ","When a user creates a Shipment for the first time, it is Automatically added as \"InTransit\" type. Afterward, user can change it to \"Under Clearance\"."]],"id":"17"})
