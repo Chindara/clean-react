@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ProjectName.Application.FeatureNames;
 
-public record GetFeatureNameQuery(long Id) : IRequest<FeatureNameResponse>;
+public record GetFeatureNameQuery(long companyId, long Id) : IRequest<FeatureNameResponse>;
 
 internal class GetFeatureNameQueryHandler : IRequestHandler<GetFeatureNameQuery, FeatureNameResponse>
 {

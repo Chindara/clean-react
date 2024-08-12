@@ -11,6 +11,4 @@ public interface IFeatureNameRepository
     void Add(FeatureName FeatureNameLower);
 
     void Update(FeatureName FeatureNameLower);
-
-    void Remove(FeatureName FeatureNameLower);
 }

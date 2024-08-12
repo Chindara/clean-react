@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace ProjectName.Persistence.Configurations;
-internal class FeatureNameConfiguration : IEntityTypeConfiguration<object>
+internal class FeatureNameConfiguration : IEntityTypeConfiguration<FeatureName>
 {
-    public void Configure(EntityTypeBuilder<object> builder)
+    public void Configure(EntityTypeBuilder<FeatureName> builder)
     {
         builder.HasKey(x => x.Id);
     }

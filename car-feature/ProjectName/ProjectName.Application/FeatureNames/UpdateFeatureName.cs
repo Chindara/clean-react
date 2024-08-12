@@ -7,7 +7,7 @@ using MediatR;
 
 namespace ProjectName.Application.FeatureNames;
 
-public record UpdateFeatureNameCommand(long Id, long UserId) : IRequest<Result<FeatureName>>;
+public record UpdateFeatureNameCommand(long UserId, long Id) : IRequest<Result<FeatureName>>;
 
 internal class UpdateFeatureNameCommandHandler : IRequestHandler<UpdateFeatureNameCommand, Result<FeatureName>>
 {

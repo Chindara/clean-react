@@ -8,7 +8,7 @@ using MediatR;
 
 namespace ProjectName.Application.FeatureNames;
 
-public record GetFeatureNamesQuery(int Page, int Size) : IRequest<PagedResult<FeatureNameResponses>>;
+public record GetFeatureNamesQuery(long CompanyId, int Page, int Size) : IRequest<PagedResult<FeatureNameResponses>>;
 
 internal class GetFeatureNamesQueryHandler : IRequestHandler<GetFeatureNamesQuery, PagedResult<FeatureNameResponses>>
 {

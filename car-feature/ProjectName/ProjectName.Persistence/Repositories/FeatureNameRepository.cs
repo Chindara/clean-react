@@ -15,16 +15,6 @@ internal sealed class FeatureNameRepository : IFeatureNameRepository
         _context = context;
     }
 
-    public void Add(FeatureName FeatureNameLower)
-    {
-        _context.FeatureNames.Add(FeatureNameLower);
-    }
-
-    public void Remove(FeatureName FeatureNameLower)
-    {
-        _context.FeatureNames.Remove(FeatureNameLower);
-    }
-
     public async Task<FeatureName?> GetById(long id)
     {
         var reocrd = await _context.FeatureNames.Where(c => c.Id == id).FirstOrDefaultAsync();
@@ -33,6 +23,10 @@ internal sealed class FeatureNameRepository : IFeatureNameRepository
             return reocrd;
         }
         return null;
+    }
+    public void Add(FeatureName FeatureNameLower)
+    {
+        _context.FeatureNames.Add(FeatureNameLower);
     }
 
     public void Update(FeatureName FeatureNameLower)
