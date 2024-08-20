@@ -7,6 +7,11 @@ namespace ProjectName.Domain.Entities;
 
 public sealed class FeatureName : BaseEntity, IAuditableEntity
 {
+    private FeatureName() : base(default)
+    {
+        // Parameterless constructor for EF Core
+    }
+
     public FeatureName(long companyId) : base(companyId)
     {
     }
@@ -14,11 +19,6 @@ public sealed class FeatureName : BaseEntity, IAuditableEntity
     public long CreatedBy { get; set; }
     public DateTime Modified { get; set; }
     public long ModifiedBy { get; set; }
-
-    public Result<FeatureName> Create()
-    {
-        throw NotImplementedException();
-    }
 
     public Result<FeatureName> Update()
     {
